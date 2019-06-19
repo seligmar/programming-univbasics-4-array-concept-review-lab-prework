@@ -1,8 +1,8 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  array.each do |value| 
+    if value == value_to_find 
+      return array[value]
 end
-
-The first method, find_element_index(array, value_to_find), takes in two parameters, an array of integers and a value to find. This method should return the index of the value that was passed in. If the value is not found, this method should return nil.
 
 def find_max_value(array)
   # Add your solution here
